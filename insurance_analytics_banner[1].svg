@@ -1,0 +1,31 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#0B1020"/>
+    <stop offset="0.52" stop-color="#172554"/>
+    <stop offset="1" stop-color="#312E81"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="150" y1="40" x2="1050" y2="260" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#22D3EE"/>
+    <stop offset="0.5" stop-color="#60A5FA"/>
+    <stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+</defs>
+<rect width="1200" height="300" rx="26" fill="url(#bg)"/>
+<circle cx="1000" cy="45" r="95" fill="#7C3AED" opacity="0.28" filter="url(#blur)"/>
+<circle cx="1060" cy="245" r="110" fill="#06B6D4" opacity="0.20" filter="url(#blur)"/>
+<path d="M40 245 C190 185, 250 220, 360 155 S570 70, 690 140 S900 250, 1150 92" stroke="url(#accent)" stroke-width="5" fill="none" opacity="0.9"/>
+<path d="M40 262 C190 202, 250 237, 360 172 S570 87, 690 157 S900 267, 1150 109" stroke="#fff" stroke-opacity="0.12" stroke-width="2" fill="none"/>
+<g opacity="0.85">
+  <rect x="760" y="70" width="290" height="135" rx="16" fill="#fff" fill-opacity="0.06" stroke="#fff" stroke-opacity="0.12"/>
+  <path d="M790 175 L790 145 L830 125 L870 150 L915 112 L960 135 L1005 95" stroke="#67E8F9" stroke-width="3" fill="none"/>
+  <circle cx="830" cy="125" r="5" fill="#67E8F9"/>
+  <circle cx="915" cy="112" r="5" fill="#93C5FD"/>
+  <circle cx="1005" cy="95" r="5" fill="#C4B5FD"/>
+</g>
+<text x="55" y="92" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Insurance Claims Analytics</text>
+<text x="55" y="135" fill="#C7D2FE" font-family="Arial, Helvetica, sans-serif" font-size="21">Fraud Monitoring • Predictive Analytics • MIS Automation</text>
+<text x="55" y="181" fill="#67E8F9" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">PYTHON  •  SQL  •  STATISTICS  •  MACHINE LEARNING  •  EXCEL</text>
+<text x="55" y="225" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="14">From 12K+ claims to actionable portfolio intelligence</text>
+</svg>
