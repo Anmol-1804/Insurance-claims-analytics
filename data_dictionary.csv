@@ -1,0 +1,30 @@
+field,description
+claim_number,Unique claim identifier
+age_of_driver,Driver age
+gender,Driver gender
+marital_status,Marital status code
+safety_rating,Safety rating
+annual_income,Annual driver income
+high_education,Higher education indicator
+address_change,Address change indicator
+property_status,Own/rent status
+zip_code,ZIP code
+claim_date,Claim date
+claim_day_of_week,Day claim was filed
+accident_site,Accident location
+past_num_of_claims,Number of previous claims
+witness_present,Witness indicator
+liab_prct,Liability percentage
+channel,Claim initiation channel
+police_report,Police report indicator
+age_of_vehicle,Vehicle age
+vehicle_category,Vehicle size category
+vehicle_price,Vehicle price
+vehicle_color,Vehicle color
+total_claim,Total claim amount
+injury_claim,Injury claim amount
+policy deductible,Policy deductible
+annual premium,Annual premium
+days open,Claim open duration
+form defects,Number of form defects
+fraud reported,Fraud outcome
