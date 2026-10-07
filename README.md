@@ -1,17 +1,14 @@
 <div align="center">
 
-<a href="https://github.com/Anmol-1804/Insurance-claims-analytics">
-<img src="./insurance_analytics_banner.svg" alt="Insurance Claims Analytics" width="100%">
-</a>
+<img src="./insurance_analytics_banner.png" alt="Insurance Claims Analytics" width="100%">
 
-<br>
+<br><br>
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![SQL](https://img.shields.io/badge/SQL-Analytics-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Scikit--learn](https://img.shields.io/badge/Scikit--learn-Predictive%20Modelling-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Excel](https://img.shields.io/badge/Excel-MIS%20Reporting-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://www.microsoft.com/microsoft-365/excel)
-[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anmol-1804)
 
 ### End-to-End Insurance Analytics Project
 
@@ -21,27 +18,27 @@
 
 ---
 
-## Project Overview
+## 📊 Project at a Glance
+
+| **12,002** | **11,994** | **24.6%** | **0.63** | **11** |
+|:---:|:---:|:---:|:---:|:---:|
+| Claims | Known Outcomes | Reported Fraud | ROC-AUC | Visuals |
 
 This project demonstrates an end-to-end **insurance claims analytics workflow** using the Minitab Insurance Fraud dataset.
 
-The objective is to transform raw claims data into decision-ready insights through:
+The goal is to transform raw claims data into decision-ready insights through:
 
-- Portfolio and claims analytics
-- Fraud-rate segmentation
-- Statistical diagnostics
-- Predictive modelling
-- SQL-based KPI monitoring
-- Automated Excel MIS reporting
-- Presentation-ready business visualisations
-
-> **Dataset scale:** 12,002 claims  
-> **Known fraud outcomes:** 11,994  
-> **Reported fraud rate:** 24.6%
+- 📈 Portfolio and claims analytics
+- 🔎 Fraud-rate segmentation
+- 📐 Statistical diagnostics
+- 🤖 Predictive modelling
+- 🗄️ SQL-based KPI monitoring
+- 📊 Automated Excel MIS reporting
+- 🎯 Presentation-ready business visualisations
 
 ---
 
-## Why This Project Matters
+# 💡 Why This Project Matters
 
 Insurance analytics teams need to answer questions such as:
 
@@ -56,136 +53,129 @@ Insurance analytics teams need to answer questions such as:
 
 ---
 
-## Project Highlights
-
-<div align="center">
-
-| 12,002 | 24.6% | 0.63 | 11 |
-|:---:|:---:|:---:|:---:|
-| **Claims Analysed** | **Reported Fraud Rate** | **ROC-AUC** | **Analytics Visuals** |
-
-</div>
-
-### Core Capabilities
-
-- **Data Analytics:** cleaning, transformation, segmentation and exploratory analysis
-- **Statistical Analysis:** distributions, correlations and fraud-rate diagnostics
-- **Predictive Analytics:** class-weighted Logistic Regression
-- **SQL:** portfolio KPIs, segmentation, window functions and monitoring queries
-- **MIS Automation:** Python-generated Excel reporting workflow
-- **Business Visualisation:** executive dashboards, heatmaps, trend analysis and model diagnostics
-
----
-
-## Technology Stack
+# 🧰 Technology Stack
 
 | Area | Tools |
 |---|---|
-| Programming | Python |
-| Data Manipulation | Pandas, NumPy |
-| Statistical Analysis | SciPy / descriptive statistics |
-| Machine Learning | Scikit-learn |
-| Visualisation | Matplotlib |
-| Database Analytics | SQL |
-| Reporting | Microsoft Excel |
-| Development | Jupyter Notebook |
-| Version Control | Git / GitHub |
+| 🐍 Programming | Python |
+| 🔢 Data Manipulation | Pandas, NumPy |
+| 📐 Statistical Analysis | Descriptive statistics, correlations, diagnostics |
+| 🤖 Machine Learning | Scikit-learn |
+| 📊 Visualisation | Matplotlib |
+| 🗄️ Database Analytics | SQL |
+| 📑 Reporting | Microsoft Excel |
+| 📓 Development | Jupyter Notebook |
+| 🔗 Version Control | Git / GitHub |
 
 ---
 
-# Analytical Workflow
+# 🔄 Analytical Workflow
 
 <div align="center">
 
-```mermaid
-flowchart LR
-    A["Raw Claims Data<br/>12,002 Records"] --> B["Data Quality<br/>& Preparation"]
-    B --> C["EDA &<br/>Portfolio Analytics"]
-    C --> D["Fraud &<br/>Severity Segmentation"]
-    D --> E["Predictive<br/>Risk Modelling"]
-    E --> F["SQL KPI<br/>Monitoring"]
-    F --> G["Automated MIS<br/>Reporting"]
-
-    style A fill:#172554,stroke:#60A5FA,color:#FFFFFF
-    style B fill:#0F766E,stroke:#2DD4BF,color:#FFFFFF
-    style C fill:#0369A1,stroke:#38BDF8,color:#FFFFFF
-    style D fill:#7C2D12,stroke:#FB923C,color:#FFFFFF
-    style E fill:#581C87,stroke:#C084FC,color:#FFFFFF
-    style F fill:#166534,stroke:#4ADE80,color:#FFFFFF
-    style G fill:#9A3412,stroke:#FDBA74,color:#FFFFFF
-```
+**🟦 RAW CLAIMS DATA**  
+↓  
+**🟩 DATA QUALITY & PREPARATION**  
+↓  
+**🟦 EDA & PORTFOLIO ANALYTICS**  
+↓  
+**🟧 FRAUD & SEVERITY SEGMENTATION**  
+↓  
+**🟪 PREDICTIVE RISK MODELLING**  
+↓  
+**🟩 SQL KPI MONITORING**  
+↓  
+**🟧 AUTOMATED MIS REPORTING**
 
 </div>
 
----
+### Workflow Components
 
-# Visual Analytics
+1. **Data Quality & Preparation**
+   - Date parsing and standardisation
+   - Numeric conversion
+   - Missing-value treatment
+   - Fraud outcome encoding
+   - Claim-month and severity-band creation
 
-## Executive Portfolio View
+2. **Portfolio Analytics**
+   - Claim volume and claim-value analysis
+   - Channel segmentation
+   - Accident-site segmentation
+   - Vehicle-category analysis
+   - Monthly monitoring
 
-<p align="center">
-<img src="./00_executive_portfolio_overview.png" width="95%">
-</p>
+3. **Fraud Analytics**
+   - Fraud-rate segmentation
+   - Severity-band analysis
+   - Accident-site × channel analysis
+   - Claim-value concentration
 
----
+4. **Predictive Modelling**
+   - Stratified train/test split
+   - Numerical imputation and standardisation
+   - Categorical one-hot encoding
+   - Class-weighted Logistic Regression
+   - ROC-AUC and precision–recall evaluation
 
-## Fraud Exposure by Channel
-
-<p align="center">
-<img src="./01_fraud_exposure_by_channel.png" width="82%">
-</p>
-
----
-
-## Claim Amount Distribution
-
-<p align="center">
-<img src="./02_claim_amount_distribution_by_fraud.png" width="82%">
-</p>
-
----
-
-## Fraud Rate Across Claim Severity
-
-<p align="center">
-<img src="./03_fraud_rate_by_claim_severity.png" width="82%">
-</p>
-
----
-
-## Accident Site × Claim Channel
-
-<p align="center">
-<img src="./04_accident_site_channel_heatmap.png" width="88%">
-</p>
+5. **Reporting & Automation**
+   - SQL KPI layer
+   - Automated Excel MIS workbook
+   - Reusable Python scripts
 
 ---
 
-## Monthly Portfolio Monitoring
+# 🎨 Visual Analytics
 
-<p align="center">
-<img src="./05_monthly_volume_and_fraud_rate.png" width="95%">
-</p>
+## 01 · Executive Portfolio View
 
----
-
-## Operational Processing Duration
-
-<p align="center">
-<img src="./06_processing_duration_by_fraud.png" width="82%">
-</p>
+<img src="./00_executive_portfolio_overview.png" alt="Executive Portfolio View" width="100%">
 
 ---
 
-## Numeric Driver Correlation Matrix
+## 02 · Fraud Exposure by Channel
 
-<p align="center">
-<img src="./07_numeric_driver_correlation_matrix.png" width="86%">
-</p>
+<img src="./01_fraud_exposure_by_channel.png" alt="Fraud Exposure by Channel" width="88%">
 
 ---
 
-# Predictive Analytics
+## 03 · Claim Amount Distribution
+
+<img src="./02_claim_amount_distribution_by_fraud.png" alt="Claim Amount Distribution by Fraud Outcome" width="88%">
+
+---
+
+## 04 · Fraud Rate Across Claim Severity
+
+<img src="./03_fraud_rate_by_claim_severity.png" alt="Fraud Rate by Claim Severity" width="88%">
+
+---
+
+## 05 · Accident Site × Claim Channel
+
+<img src="./04_accident_site_channel_heatmap.png" alt="Accident Site Channel Heatmap" width="92%">
+
+---
+
+## 06 · Monthly Portfolio Monitoring
+
+<img src="./05_monthly_volume_and_fraud_rate.png" alt="Monthly Volume and Fraud Rate" width="100%">
+
+---
+
+## 07 · Operational Processing Duration
+
+<img src="./06_processing_duration_by_fraud.png" alt="Processing Duration by Fraud Outcome" width="88%">
+
+---
+
+## 08 · Numeric Driver Correlation Matrix
+
+<img src="./07_numeric_driver_correlation_matrix.png" alt="Numeric Driver Correlation Matrix" width="92%">
+
+---
+
+# 🤖 Predictive Analytics
 
 ## Fraud-Risk Model
 
@@ -196,17 +186,15 @@ A **class-weighted Logistic Regression** model was developed as a baseline fraud
 ```text
 Raw Features
      ↓
-Missing-value Treatment
+Missing-Value Treatment
      ↓
-Numerical Standardisation
-     +
-Categorical One-Hot Encoding
+Numerical Standardisation + Categorical One-Hot Encoding
      ↓
 Class-Weighted Logistic Regression
      ↓
 Fraud Probability Score
      ↓
-ROC-AUC / Precision–Recall Evaluation
+ROC-AUC + Precision–Recall Evaluation
 ```
 
 ### Model Performance
@@ -219,31 +207,29 @@ ROC-AUC / Precision–Recall Evaluation
 | Validation | Stratified Train/Test Split |
 | Class Handling | Balanced Class Weights |
 
-<p align="center">
-<img src="./08_model_roc_and_precision_recall.png" width="95%">
-</p>
+### Model Evaluation
 
-### Risk Score Distribution
+<img src="./08_model_roc_and_precision_recall.png" alt="ROC and Precision Recall Evaluation" width="100%">
 
-<p align="center">
-<img src="./09_predicted_risk_score_distribution.png" width="82%">
-</p>
+### Predicted Risk Score Distribution
+
+<img src="./09_predicted_risk_score_distribution.png" alt="Predicted Risk Score Distribution" width="88%">
+
+> **Interpretation:** This is intentionally presented as a baseline analytical model rather than a production fraud engine. The purpose is to demonstrate the complete workflow from claims data to risk scoring.
 
 ---
 
-# Portfolio Risk Analytics
+# 💰 Portfolio Risk Analytics
 
 ## Claim-Value Concentration
 
-The Pareto analysis highlights how claim value is distributed across the portfolio and supports prioritisation of high-value exposures.
+The Pareto analysis examines how claim value is distributed across the portfolio and supports prioritisation of high-value exposures.
 
-<p align="center">
-<img src="./10_claim_value_pareto.png" width="90%">
-</p>
+<img src="./10_claim_value_pareto.png" alt="Claim Value Pareto Analysis" width="92%">
 
 ---
 
-# SQL Analytics
+# 🗄️ SQL Analytics
 
 The SQL layer contains reusable queries for:
 
@@ -255,7 +241,7 @@ The SQL layer contains reusable queries for:
 - Claims-processing efficiency
 - Window-function based ranking
 
-Example analytical pattern:
+### Example
 
 ```sql
 SELECT
@@ -270,27 +256,33 @@ ORDER BY fraud_rate_pct DESC;
 
 ---
 
-# Automated MIS Reporting
+# 📊 Automated MIS Reporting
 
-The project includes an Excel MIS workbook generated through Python.
+The project includes an **Excel MIS workbook generated through Python**.
 
 ### Reporting Views
 
 ```text
-Executive KPIs
-      │
-      ├── Channel Analysis
-      ├── Accident Site
-      ├── Vehicle Category
-      ├── Monthly Trend
-      └── Severity Bands
+                    EXECUTIVE KPIs
+                          │
+          ┌───────────────┼───────────────┐
+          ↓               ↓               ↓
+   CHANNEL ANALYSIS  ACCIDENT SITE   VEHICLE CATEGORY
+          │               │               │
+          └───────────────┼───────────────┘
+                          ↓
+                  MONTHLY TREND
+                          ↓
+                   SEVERITY BANDS
 ```
 
-This demonstrates the transition from **raw analytical output → management reporting**.
+This demonstrates the transition from:
+
+**Raw Data → Analysis → KPI Layer → Management Reporting**
 
 ---
 
-# Data Preparation
+# 🧹 Data Preparation
 
 The data preparation layer includes:
 
@@ -305,13 +297,17 @@ The data preparation layer includes:
 
 ---
 
-# Repository Structure
+# 📁 Repository Structure
 
 ```text
 Insurance-claims-analytics/
 │
 ├── README.md
+├── insurance_analytics_banner.png
+│
 ├── Insurance_Fraud_Analytics.ipynb
+├── Insurance_Fraud_MIS.xlsx
+├── RECRUITER_PROJECT_SUMMARY.md
 │
 ├── insurance_fraud_data.csv
 ├── insurance_fraud_clean.csv
@@ -320,45 +316,40 @@ Insurance-claims-analytics/
 ├── insurance_fraud_analysis.sql
 ├── fraud_model.py
 ├── generate_mis.py
-│
-├── Insurance_Fraud_MIS.xlsx
-├── RECRUITER_PROJECT_SUMMARY.md
-│
 ├── requirements.txt
 │
-└── *.png
-    ├── Executive Portfolio View
-    ├── Channel Fraud Exposure
-    ├── Claim Distribution
-    ├── Severity Analysis
-    ├── Accident Site × Channel
-    ├── Monthly Monitoring
-    ├── Processing Duration
-    ├── Correlation Matrix
-    ├── Model Evaluation
-    ├── Risk Score Distribution
-    └── Claim-Value Pareto
+├── 00_executive_portfolio_overview.png
+├── 01_fraud_exposure_by_channel.png
+├── 02_claim_amount_distribution_by_fraud.png
+├── 03_fraud_rate_by_claim_severity.png
+├── 04_accident_site_channel_heatmap.png
+├── 05_monthly_volume_and_fraud_rate.png
+├── 06_processing_duration_by_fraud.png
+├── 07_numeric_driver_correlation_matrix.png
+├── 08_model_roc_and_precision_recall.png
+├── 09_predicted_risk_score_distribution.png
+└── 10_claim_value_pareto.png
 ```
 
 ---
 
-# Key Takeaways
+# 🎯 Key Takeaways
 
 ### 01 — Portfolio Monitoring
-Claims data can be segmented across channel, accident site, vehicle characteristics, severity and time to identify areas requiring management attention.
+Claims can be segmented across channel, accident site, vehicle characteristics, severity and time to identify areas requiring management attention.
 
 ### 02 — Fraud Analytics
-Fraud-rate segmentation provides a structured way to compare exposure across operational and claim characteristics.
+Fraud-rate segmentation provides a structured framework for comparing exposure across operational and claim characteristics.
 
 ### 03 — Predictive Analytics
-The Logistic Regression model demonstrates how claim-level variables can be converted into a probability-based fraud-risk score.
+Claim-level variables can be transformed into probability-based fraud-risk scores using supervised learning.
 
 ### 04 — Management Reporting
 SQL KPIs and automated Excel reporting bridge the gap between analytical work and recurring business monitoring.
 
 ---
 
-# Source & Disclaimer
+# 📌 Source
 
 **Dataset:** Minitab Insurance Fraud dataset.
 
@@ -371,10 +362,9 @@ This is an academic / portfolio analytics project using a public dataset. The pr
 
 <div align="center">
 
-## Built by Anmol
+### Built by Anmol
 
-**M.A. Applied Quantitative Finance**  
-**Madras School of Economics**
+**M.A. Applied Quantitative Finance · Madras School of Economics**
 
 [GitHub](https://github.com/Anmol-1804) · [LinkedIn](https://www.linkedin.com/in/anmol1804)
 
